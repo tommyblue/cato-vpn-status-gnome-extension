@@ -1,0 +1,9 @@
+{
+  "uuid": "cato-vpn-status@tommyblue.github.com",
+  "name": "Cato VPN Indicator",
+  "description": "Shows CATO VPN status (using cato-sdp CLI) and allow the user to connect/disconnect",
+  "shell-version": [ "46", "47", "48", "49", "50" ],
+  "url": "https://github.com/tommyblue/cato-vpn-status-gnome-extension",
+  "type": "extension",
+  "version": 1
+}
