@@ -65,26 +65,21 @@ If the command is not found, install/configure the Cato client first.
 1. Create the extension directory:
 
 	 ```bash
-	 mkdir -p ~/.local/share/gnome-shell/extensions/cato-vpn-status@tommyblue.github.com
+	 git clone https://github.com/tommyblue/cato-vpn-status-gnome-extension.git ~/.local/share/gnome-shell/extensions/cato-vpn-status@tommyblue.github.com
 	 ```
 
-2. Copy these files into that directory:
-
-	 - `extension.js`
-	 - `metadata.json`
-
-3. Restart GNOME Shell:
+2. Restart GNOME Shell:
 
 	 - On Xorg: press `Alt+F2`, type `r`, then press Enter.
 	 - On Wayland: log out and log back in.
 
-4. Enable the extension running the "Extensions" app or manually:
+3. Enable the extension running the "Extensions" app or manually:
 
 	 ```bash
 	 gnome-extensions enable cato-vpn-status@tommyblue.github.com
 	 ```
 
-5. Confirm it is enabled:
+4. Confirm it is enabled:
 
 	 ```bash
 	 gnome-extensions list --enabled | grep cato-vpn-status@tommyblue.github.com
